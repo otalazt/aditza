@@ -1,0 +1,264 @@
+body {
+font-family: 'Noto Sans', sans-serif;
+font-size: 1em;
+font-weight: 400;
+line-height: 1.1em;
+color: #9F1F83;
+background: #b3dced; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IzZGNlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5YjhlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiY2UwZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3dced), color-stop(50%,#29b8e5), color-stop(100%,#bce0ee)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-8 */
+min-height:300px;
+}
+
+.debug, .debug2, .debug3 {font-size:0.8em;margin:0}
+.debug {background:#f00;color:#fff;}
+.debug2 {background:#ff0;color:#000;margin:0}
+.debug3 {background:#fff;color:#ccc;font-style:italic}
+
+
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+	width: 1px;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	position: absolute;
+	clip: rect(0 0 0 0);
+	clip: rect(0,0,0,0);
+	-webkit-appearance:	none;
+	-moz-appearance:	none;
+	-o-appearance:		none;
+	appearance:		none;
+}
+
+
+.emaitzagehiago {
+width:100%;}
+.emaitzagehiago p {
+	text-align:center;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 700;
+	padding:1em 0 0 0;
+	margin:0;}
+.emaitzagehiago ul {}
+.emaitzagehiago ul li {display:inline-block;min-width:180px;width:25%;height:100px;background-repeat:no-repeat;background-position:50% 50%;opacity:0.5;}
+.emaitzagehiago ul li:hover {opacity:1}
+.emaitzagehiago ul li.lizerora {background-image : url(zerora.png);}
+.emaitzagehiago ul li.liaitzin {background-image : url(aitzin.png);}
+.emaitzagehiago ul li.liondotik {background-image : url(ondotik.png);}
+.emaitzagehiago ul li.libukaerara{background-image : url(bukaerara.png);}
+.emaitzagehiago ul li label {display:block;width:100%;height:100%;
+   background: none repeat scroll 0 0 transparent;
+    border: 0px solid transparent;
+    box-shadow: 0px 0px 0px 0 #CCCCCC;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 100px;
+    opacity: 1;
+    padding-left: 0px;
+    text-shadow: 0px 0px 0px #FFFFFF;
+}
+
+.toka {color:#4682B4;}
+.noka{color:#BA55D3;}
+.eztabada {color:#000;}
+.xuka {color:#188754;}
+.zuka {color:#D73930;}
+
+.taulahandia {font-size:0.8em; width:80%;margin-left:17%}
+.taulahandia td.edit_td{background:#fff;}
+.taulahandia th{
+    color: #000;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 5px #999;}
+.taulahandia h2 {
+	margin:0;
+	text-shadow:1px 1px 5px #fff;
+}
+.taulahandia .textLeg {display:none;}
+.taulahandia .toka, .taulahandia .toka {line-height:0.8em}
+.eskuin {text-align:right}
+.gehigehi {background-image:url(add10.png); width:10px;height:10px;float:right;margin-top:-5px;opacity:0.5}
+.delete {display:none;background-image:url(delete16.png); width:16px;height:16px;float:right;margin-top:-8px;opacity:0.5}
+.infoID{display:none;}
+.gehiinput{display:none;font-size:0.9em;}
+.gehiinput input{font-size:0.9em;}
+.ttipi {clear: both;
+    display: block;
+    font-style: italic;}
+
+.opziottipi {display:inline-block;}
+
+aside{position:fixed;top:0;font-size:0.8em;width:15%;height:100%;padding-right: 10px;
+overflow-y: auto;}
+aside ul {margin: 0;
+padding: 0;
+font-size: 0.9em;
+color:#000;}
+aside li {margin-left:5px;
+	display:inline-block;
+	font-size:11px;
+	text-decoration:none;
+}
+.ezda {
+	background-color:#ccc;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #aaa;
+	cursor:pointer;
+	color:#999;
+	font-size:11px;
+	padding:1px 5px;
+	text-decoration:none;
+}
+.ezda:hover {
+	background-color:#6c7c7c;
+}
+.ezda:active {
+	position:relative;
+	top:1px;
+}
+.bada {
+	background-color:#99eaaf;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #68d986;
+	cursor:pointer;
+	color:#2e59a3;
+	font-size:11px;
+	padding:2px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #68d986;
+}
+.bada:hover {
+	background-color:#80b5ea;
+}
+.bada:active {
+	position:relative;
+	top:1px;
+}
+
+.on {
+	background-color:#44c767;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #44c767;
+	color:#ffffff;
+	text-shadow:0px 1px 1px #2f6627;
+	cursor:pointer;
+	padding:1px 5px;
+}
+.on:hover {
+	background-color:#5cbf2a;
+}
+.on:active {
+	position:relative;
+	top:1px;
+}
+
+
+header {
+    background: url(transparency.png) repeat;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: 17%;
+	width:81%;
+	opacity:0.7;
+}
+header:hover{opacity:1;}
+header h1 {color:#fff;font-size:1.4em;margin:10px}
+
+.trtit {vertical-align:bottom;height:120px;}
+
+/*------ menu -------*/
+ 
+#menu {
+    margin: 0 auto;
+    width: 960px;
+}
+ 
+#menu ul {
+    padding: 0;
+    list-style: none;
+    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+ 
+#menu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+ 
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {position:fixed;
+	bottom:0;
+	width:100%;
+}
+#zerrenda ul {
+padding-left: 0;
+margin-left: 0;
+border-bottom: 1px solid gray;
+width: 200px;
+}
+#zerrenda li {
+    border: 1px solid gray;
+    display: inline-block;
+    font-size: 0.8em;
+    list-style: none outside none;
+    margin: 0.25em;
+    max-width: 150px;
+    min-width: 150px;
+    padding: 0.25em;
+}
+.besteak {
+font-size:0.9em;
+margin-left: auto;
+margin-right: auto;
+border-top: 1px solid #999;
+z-index: 1;
+}
+.besteak ul {
+list-style-type: none;
+text-align: center;
+margin-top: -8px;
+padding: 0;
+position: relative;
+z-index: 2;
+}
+.besteak li {
+display: inline;
+text-align: center;
+margin: 0 5px;
+}
+.besteak a {
+padding: 1px 7px;
+color: #666;
+background-color: #fff;
+border: 1px solid #ccc;
+text-decoration: none;
+}
+.besteak a:hover {
+color: #000;
+border: 1px solid #666;
+border-top: 2px solid #666;
+border-bottom: 2px solid #666;
+}

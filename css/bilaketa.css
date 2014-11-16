@@ -1,0 +1,109 @@
+body{
+text-align:center;
+color:#000;
+}
+#container{height:100%;}
+
+.editbox
+{display:none;
+font-size:14px;
+width:110px;
+background-color:#ffffcc;
+border:solid 1px #000;
+padding:4px;
+}
+.edit_tr{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmY4OCIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmY4OCIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top, rgba(255,255,136,0.5) 0%, rgba(255,255,136,0.5) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,136,0.5)), color-stop(100%,rgba(255,255,136,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,136,0.5) 0%,rgba(255,255,136,0.5) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,136,0.5) 0%,rgba(255,255,136,0.5) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,136,0.5) 0%,rgba(255,255,136,0.5) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,136,0.5) 0%,rgba(255,255,136,0.5) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffff88', endColorstr='#80ffff88',GradientType=0 ); /* IE6-8 */
+display: inline-block;
+    border: 4px solid #188754;
+	margin:2%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 170px;
+}
+.Batua {
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q2ZjlmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzllZThmYSIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(top, rgba(214,249,255,0.5) 0%, rgba(158,232,250,0.5) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,249,255,0.5)), color-stop(100%,rgba(158,232,250,0.5))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(214,249,255,0.5) 0%,rgba(158,232,250,0.5) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(214,249,255,0.5) 0%,rgba(158,232,250,0.5) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(214,249,255,0.5) 0%,rgba(158,232,250,0.5) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(214,249,255,0.5) 0%,rgba(158,232,250,0.5) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80d6f9ff', endColorstr='#809ee8fa',GradientType=0 ); /* IE6-8 */
+    border: 4px solid #37bbe6;
+}
+
+.edit_tr div{display:block;}
+.euskalki {     
+	background: none repeat scroll 0 0 #188754;
+    border-radius: 0 0 4px 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0px auto 15px;
+    padding-bottom: 2px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.05);
+    width: 160px;}
+.divBatua {	background: none repeat scroll 0 0 #37bbe6;}
+.aditza, .eztabada {font-weight:bold;font-size:1.1em;}
+.spanba, .spanbait {
+    display: block;
+	margin:0.5em 0;}
+.modualdia {margin:5% 0 0 0;font-style:italic}
+.forma {margin:0 0 5% 0;font-style:italic}
+.nnn{border:1px dotted #000;
+	margin:1% 0;}
+.spannnn{display:block;}
+.textLeg {display:inline-block;font-size:0.9em;color:#222;text-align:right;width:35%;padding:1%}
+.textEztabada {display:block;width:100%}
+.textNor, .textNori, .textNork, .textToka, .textNoka, .textXuka, .textZuka{display:inline-block;width:55%;font-weight:bold;}
+.nagusia {font-size:1.1em;margin: 5% 0}
+.spannagusia {display:block;width:100%}
+
+.ttiki {font-weight:normal;font-size:0.8em;}
+
+
+
+#area_search  {
+	width: 0px;
+	border:0;
+	border-radius:0px;
+	padding: 10px;
+	vertical-align: top;
+	visibility: hidden;
+	font-weight: 300;
+	font-size: 12px;
+	color:#999999;
+	background-color: #ffffff !important;}
+#btn_search{
+	width: 50px;
+	height:50px;
+	background-color: #f8b334;
+	border:0;
+	margin: 0;
+	padding: 0;}
+#sous_search{
+	background-color: #ffffff;
+	visibility: hidden;
+	font-weight: 400;
+	font-size: 12px;
+	padding: 10px;
+	color:#999999;
+	text-align: left;
+	height: 0px;}
+#sous_search:hover{
+	color:#00a096;
+	background-color: #dbdbdb;
+	cursor: pointer;}
+.tratamendua {font-style:italic; margin:0.2em 0;}
+.tratattipi {display: block;font-size:0.8em;background: yellow; margin:0.2em 0;}
